@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            text-align: center;
+            padding: 20px;
+            flex: 1 1 calc(25% - 20px);
+            /* Each card takes up 25% of the row, minus margin */
+            box-sizing: border-box;
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .card h3 {
+            color: #333;
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+
+        .card p {
+            color: #555;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+
+        .card .price {
+            font-size: 1.5rem;
+            color: #007bff;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Media Queries */
+        @media (max-width: 1200px) {
+            .card {
+                flex: 1 1 calc(33.33% - 20px);
+            }
+        }
+
+        @media (max-width: 992px) {
+            .card {
+                flex: 1 1 calc(50% - 20px);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 1 calc(50% - 20px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="card">
+                <img src="/wallet.png" alt="Aadhar Logo">
+                <h3>AADHAR NUMBER TO PDF INSTANT</h3>
+                <p>Get your Aadhar card in PDF format instantly.</p>
+                <div class="price">₹30/-</div>
+            </div>
+            <div class="card">
+                <img src="/aadhar.png" alt="Aadhar Logo">
+                <h3>MATCHING DUPLICATE TO AADHAR PDF</h3>
+                <p>Get a duplicate Aadhar card matching your original.</p>
+                <div class="price">₹10/-</div>
+            </div>
+            <div class="card">
+                <img src="e-shram.jpg" alt="Aadhar Logo">
+                <h3>AADHAR NUMBER TO PHOTO DETAILS INSTANT</h3>
+                <p>Get your Aadhar card details with photo.</p>
+                <div class="price">₹10/-</div>
+            </div>
+            <div class="card">
+                <img src="/PAN.png" alt="E-Shram Logo">
+                <h3>E-Shram Card PDF INSTANT</h3>
+                <p>Get your E-Shram card in PDF format instantly.</p>
+                <div class="price">₹30/-</div>
+            </div>
+            <div class="card">
+                <img src="/rc.jpg" alt="E-Shram Logo">
+                <h3>E-Shram Card PDF INSTANT</h3>
+                <p>Get your E-Shram card in PDF format instantly.</p>
+                <div class="price">₹30/-</div>
+            </div>
+            <div class="card">
+                <img src="/voter.png" alt="E-Shram Logo">
+                <h3>E-Shram Card PDF INSTANT</h3>
+                <p>Get your E-Shram card in PDF format instantly.</p>
+                <div class="price">₹30/-</div>
+            </div>
+            <div class="card">
+                <img src="/Ayshman card.avif" alt="Aadhar Logo">
+                <h3>AADHAR NUMBER TO PDF INSTANT</h3>
+                <p>Get your Aadhar card in PDF format instantly.</p>
+                <div class="price">₹30/-</div>
+            </div>
+            <div class="card">
+                <img src="/driver-license.avif" alt="Aadhar Logo">
+                <h3>MATCHING DUPLICATE TO AADHAR PDF</h3>
+                <p>Get a duplicate Aadhar card matching your original.</p>
+                <div class="price">₹10/-</div>
+            </div>
+            <div class="card">
+                <img src="/pan-to-aadhar.webp" alt="Aadhar Logo">
+                <h3>AADHAR NUMBER TO PHOTO DETAILS INSTANT</h3>
+                <p>Get your Aadhar card details with photo.</p>
+                <div class="price">₹10/-</div>
+            </div>
+            <div class="card">
+                <img src="/rataion-card.png" alt="E-Shram Logo">
+                <h3>E-Shram Card PDF INSTANT</h3>
+                <p>Get your E-Shram card in PDF format instantly.</p>
+                <div class="price">₹30/-</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
